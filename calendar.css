@@ -1,0 +1,9 @@
+.googlecalender, iframe {
+    margin: 0 auto;
+    background-color: #777;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
