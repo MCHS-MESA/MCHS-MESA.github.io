@@ -1,6 +1,21 @@
-.googlecalender, iframe {
+.google-calender, iframe {
     margin: 0 auto;
     background-color: #777;
+}
+
+.google-calender {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.calendar-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 iframe {
