@@ -3,13 +3,13 @@
     background-color: #777;
 }
 
-.google-calender {
+.responsive-iframe-container {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
 }
 
-.calendar-link {
+.responsive-iframe-container {
     position: absolute;
     top: 0;
     left: 0;
