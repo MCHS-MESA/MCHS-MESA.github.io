@@ -1,0 +1,24 @@
+@font-face {
+    font-family: heebo;
+    src: url(Heebo-VariableFont_wght.ttf);
+}
+
+.event-item #math-escape{
+    font-family: heebo;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+.event-item #math-description{
+    font-family: heebo;
+    font-size: 40px;
+    color: white;
+}
+
+.event-item #nedc{
+    font-family: heebo;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
