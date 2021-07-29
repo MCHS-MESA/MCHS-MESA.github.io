@@ -3,22 +3,46 @@
     src: url(Heebo-VariableFont_wght.ttf);
 }
 
+.event-item{
+    margin: 2%;
+}
+
 .event-item #math-escape{
     font-family: heebo;
     font-size: 60px;
     color: white;
-    text-shadow: 3px 3px 5px black;
+    position: relative;
+    left: 3%;
+    top: 30px;
 }
 
 .event-item #math-description{
     font-family: heebo;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
+    position: relative;
+    left: 15%;
+    width: 50%;
+    
+    padding: 3%;
+    margin: 1%;
 }
+
+#vanta-js {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+  }
 
 .event-item #nedc{
     font-family: heebo;
     font-size: 60px;
     color: white;
-    text-shadow: 3px 3px 5px black;
+    
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
