@@ -7,12 +7,12 @@
     display: flex;
     margin: 4%;
     /* width: 92%; */
-    border: solid 10px white;
+    border: solid 4px white;
     align-items: flex-start;
     padding: 1%;
     flex-direction: row;
-    
 }
+
 .event-content{
     display: flex;
     flex-direction: column;
@@ -22,6 +22,8 @@
 
 .event-coach{
     width: 34%;
+    display: flex;
+    flex-direction: column;
 }
 
 .event-coach #math-coach{
@@ -34,7 +36,7 @@
     text-decoration: underline;
 }
 
-.event-coach #math-coach-name{
+.event-coach #math-coach-info{
     font-family: heebo;
     font-size: 30px;
     color: white;
@@ -80,8 +82,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    
-  }
+}
 
 .event-item #nedc{
     font-family: heebo;
