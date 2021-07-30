@@ -7,28 +7,51 @@
     display: flex;
     margin: 4%;
     /* width: 92%; */
-    border: solid 10px white;
+    border: solid 4px white;
     align-items: flex-start;
-    padding: auto 15px;
+    padding: 1%;
     flex-direction: row;
-
 }
+
 .event-content{
     display: flex;
     flex-direction: column;
     width: 66%;
 
 }
+
 .event-coach{
     width: 34%;
+    display: flex;
+    flex-direction: column;
 }
+
+.event-coach #math-coach{
+    font-family: heebo;
+    font-size: 60px;
+    color: white;
+    position: relative;
+    left: 3%;
+    top: 30px;
+    text-decoration: underline;
+}
+
+.event-coach #math-coach-info{
+    font-family: heebo;
+    font-size: 30px;
+    color: white;
+    position: relative;
+}
+
 .event-info{
     display: flex;
     margin-top: 20px;
 }
+
 .event-logo{
-    margin: 3%;
+    margin: 25px;
 }
+
 .event-des{
     margin-right: 3%;
     margin-bottom: 3%;
@@ -59,8 +82,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    
-  }
+}
 
 .event-item #nedc{
     font-family: heebo;
