@@ -47,6 +47,8 @@
       </nav>
 
     <div class="events-list">
+      <button type="button" class="collapsible">Math Escape Room</button>
+
       <div class="event-item" style="background-color: #500202;">
         <div class="event-content">
           <div class="event-name">
@@ -66,6 +68,7 @@
             </div>
           </div>
       </div>
+      <button type="button" class="collapsible">NEDC</button>
 
       <div class="event-item" style="background-color: #500202;">
         <div class="event-content">
@@ -85,7 +88,22 @@
       </div>
     </div>
 
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
 
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+    </script>
     <script src="three.r119.min.js"></script>
     <script src="vanta.waves.min.js"></script>
     <script id="waves-js">

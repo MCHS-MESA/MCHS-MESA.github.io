@@ -9,11 +9,30 @@
     /* width: 92%; */
     border: solid 4px white;
     align-items: flex-start;
-    padding: 1%;
+    /* padding: 1%; */
     flex-direction: row;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: 0;
 }
 
-
+.collapsible {
+    background-color: rgb(255, 255, 255);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 92%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    margin: auto 4%;
+  }
 .event-content{
     display: flex;
     flex-direction: column;
