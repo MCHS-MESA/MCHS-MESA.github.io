@@ -45,7 +45,12 @@
     width: 66%;
 
 }
-
+.coach-email{
+    font-family: heebo;
+    /* font-size: 30px; */
+    color: white;
+    margin-bottom: 10px;
+}
 .event-coach{
     width: 34%;
     display: flex;
@@ -64,12 +69,15 @@
     text-decoration: underline;
 }
 
-.event-coach #math-coach-info{
+.event-coach .coach-name{
     font-family: heebo;
     font-size: 20px;
     color: white;
     position: relative;
     text-decoration: underline;
+}
+.coach-name{
+    margin-bottom: 5px;
 }
 
 .event-info{
