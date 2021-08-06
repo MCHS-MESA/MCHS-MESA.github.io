@@ -1,0 +1,10 @@
+.four-container{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.co-pres{
+    display: flex;
+    flex-direction: column;
+}
