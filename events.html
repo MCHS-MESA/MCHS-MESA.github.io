@@ -13,7 +13,7 @@
     
   </head>
   
-  <div id="background" style="height: 100vh; width: 100vw; z-index: 0;">
+  <div id="background" style="z-index: 0;">
   <body style="background-color: #7d0121;">
     
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #500909df">
@@ -64,12 +64,8 @@
               <p id="math-coach">Coaches</p>
             </div>
             <div class="coach-info">
-              <p class="coach-name">Anish Ahuja</p>
-              <p class="coach-email">ahujaanish11@gmail.com</p>
-              <p class="coach-name">Lillian Goerzen</p>
-              <p class="coach-email">ahujaanish11@gmail.com</p>
-              <p class="coach-name">Nathan Huynh</p>
-              <p class="coach-email">ahujaanish11@gmail.com</p>
+              <p class="coach-name">Harnoor Chima</p>
+              <p class="coach-email">harnoor@gmail.com</p>
             </div>
           </div>
       </div>
@@ -127,7 +123,8 @@
           </div>
           <div class="event-info">
             <img src="rocket.png" alt="cansat-img" class="event-logo" width="200" height="200">
-            <p id="math-description" class="event-des">Students will have the opportunity to construct and decorate a model rocket in groups. They can also program sensors to an Arduino board before launching their rockets and examining their findings.</p>
+            <p id="math-description" class="event-des">Students will be able to work in their groups and create their own rockets. This hands-on opportunity offers the ability to work with and learn about rockets, weather, and the atmosphere in general. After it's ready, they can see their hard work unfold once all rockets launch during launch day.
+            </p>
           </div>
         </div>
           <div class="event-coach">
@@ -135,7 +132,9 @@
               <p id="math-coach">Coaches</p>
             </div>
             <div class="coach-info">
-              <p class="coach-name">Harnoor Chima</p>
+              <p class="coach-name">Ferhawn Shaheen</p>
+              <p class="coach-email">ferhawnshaheen@gmail.com</p>
+
             </div>
           </div>
       </div>
@@ -155,8 +154,19 @@
           var content = this.nextElementSibling;
           if (content.style.maxHeight){
             content.style.maxHeight = null;
+
           } else {
             content.style.maxHeight = content.scrollHeight + "px";
+            // var pixels = content.style.maxHeight;
+            var screenHeight = window.screen.height;
+            document.body.style.overflow = "visible";
+            // document.html.style.overflow = 'visible';
+            // window.alert(screenHeight)
+            // var percentage = ( screenHeight- pixels ) / screenHeight ;
+            // window.alert(document.getElementById('background').style.height);
+            
+            // document.getElementById("background").style.minHeight= "120vh";
+            // alert(document.getElementById("background").style.minheight);
           } 
         });
       }
