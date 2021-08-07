@@ -22,7 +22,7 @@
     margin-top: 0;
 }
 #topItem{
-    margin-top: 5%;
+    margin-top: 1%;
 }
 #background{
     height: 100%;
@@ -84,6 +84,7 @@
     position: relative;
     text-decoration: underline;
 }
+
 .coach-name{
     margin-bottom: 5px;
 }
@@ -151,24 +152,24 @@ html, body {
     color:white;
     text-decoration: underline;
     position:relative;
-    top: 8vh;
-    padding-left: 4%;
-}
-
-.mesa-related-events-header{
-    color:white;
-    text-decoration: underline;
-    font-family: heebo;
-    bottom: 1vh;
-    left: 4vw;
-    position:relative;
+    margin-left: 4%;
+    margin-top: 2%;
 }
 
 .mesa-events-note{
     color:white;
     font-family: heebo;
     position: relative;
-    left: 4vw;
     font-size: 20px;
-    padding-bottom: 2vh;
+    margin-left: 4%;
 }
+
+.mesa-related-events-header{
+    color:white;
+    text-decoration: underline;
+    font-family: heebo;
+    position:relative;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
