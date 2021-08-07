@@ -145,3 +145,30 @@ html, body {
     overflow-x: hidden;
 
 }
+
+.mesa-events-header{
+    font-family: heebo;
+    color:white;
+    text-decoration: underline;
+    position:relative;
+    top: 8vh;
+    padding-left: 4%;
+}
+
+.mesa-related-events-header{
+    color:white;
+    text-decoration: underline;
+    font-family: heebo;
+    bottom: 1vh;
+    left: 4vw;
+    position:relative;
+}
+
+.mesa-events-note{
+    color:white;
+    font-family: heebo;
+    position: relative;
+    left: 4vw;
+    font-size: 20px;
+    padding-bottom: 2vh;
+}
