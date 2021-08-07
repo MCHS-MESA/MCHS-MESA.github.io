@@ -1,10 +1,78 @@
 .four-container{
     display:flex;
     flex-direction: row;
-    align-content: flex-start;
+    margin-top: 30px;
+}
+#background{
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    /* position: fixed; */
+    z-index: -100;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .co-pres{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+.pres-photo{
+    border: 2px white solid;
+    height: auto;
+    width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+
+}
+.bigName{
+    font-size: 22pt;
+    line-height: 22pt;
+}
+.nameRole{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    /* width: 200px; */
+    margin-right: 45px;
+}
+.boardName{
+    font-size: 20pt;
+    line-height: 20pt;
+    margin-bottom: 5px;
+}
+.boardMember{
+    display: flex;
+    flex-direction: row;
+    /* width: 25%; */
+    margin: auto;
+    color: white;
+}
+.otherboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.boardEmail{
+    font-size: 16pt ;
+}
+.leftPush{
+    /* margin-right: 20px ; */
+    /* text-indent: -300px; */
+    /* font-size: 100pt; */
+    margin-left: 20%;
+    /* width: 25%; */
+}
+.rightPush{
+    /* margin-right: 20px ; */
+    /* text-indent: -300px; */
+    /* font-size: 100pt; */
+    margin-left: 55%;
+    /* width: 25%; */
 }
