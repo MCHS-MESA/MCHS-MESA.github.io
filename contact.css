@@ -3,6 +3,7 @@
     flex-direction: row;
     margin-top: 30px;
 }
+
 #background{
     height: 100%;
     min-height: 100vh;
@@ -20,6 +21,7 @@
     margin: auto;
     color: white;
 }
+
 .pres-photo{
     border: 2px white solid;
     height: auto;
@@ -29,10 +31,12 @@
   border-radius:50%;
 
 }
+
 .bigName{
     font-size: 22pt;
     line-height: 22pt;
 }
+
 .nameRole{
     display: flex;
     flex-direction: column;
@@ -40,11 +44,13 @@
     /* width: 200px; */
     margin-right: 45px;
 }
+
 .boardName{
     font-size: 20pt;
     line-height: 20pt;
     margin-bottom: 5px;
 }
+
 .boardMember{
     display: flex;
     flex-direction: row;
@@ -52,13 +58,16 @@
     margin: auto;
     color: white;
 }
+
 .otherboard{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    padding-bottom: 1%;
 }
+
 .boardEmail{
     font-size: 16pt ;
 }
