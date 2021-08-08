@@ -54,6 +54,7 @@ html, body {
 h1{
     font-size: 7vw;
     font-style: italic;
+    text-shadow: black 5px 5px;
 }
 
 a.button1{
@@ -77,6 +78,7 @@ a.button1{
     font-size: 16pt;
     min-width: 250px;
     min-height: 50px;
+    padding-bottom: 0;
 
     }
 a.button1:hover{
@@ -87,5 +89,27 @@ a.button1:hover{
     a.button1{
     display:block;
     margin:0.4em auto;
+    }
+}
+
+@media screen and (max-height: 1000px){
+    a.button1{
+        padding-bottom: 75px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .main-logo{
+        margin-top: 30px;
+    }
+    
+    
+    h1{
+        font-size: 19vw;
+    }
+
+    .meeting{
+        margin-top: 30px;
+        font-size: 30px;
     }
 }
