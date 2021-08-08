@@ -173,3 +173,17 @@ html, body {
     margin-top: 2%;
 }
 
+@media screen and (max-width: 900px){
+    .event-item{
+        flex-direction: column;
+    }
+    .event-info{
+        display: inline;
+    }
+    .event-content{
+        width: 100%;
+    }
+    .event-coach{
+        margin-bottom: 15px;
+    }
+}
