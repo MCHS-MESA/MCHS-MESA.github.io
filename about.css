@@ -10,6 +10,8 @@
     display: flex;
     flex-flow: row wrap !important;
     justify-content: center;
+    margin-top: 40px;
+    /* margin-left: 35px; */
   }
   
   #background{
@@ -46,10 +48,10 @@
     align-content: center;
     justify-self: center;
     align-self: center;
-    max-height: 70%;
-    max-width: 70%;
-    margin-top: 100px;
-    /* border: 3px rgba(255, 255, 255, 0.842) solid; */
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 150px;
+    border: 3px rgba(255, 255, 255, 0.842) solid;
   }
   
   @media screen and (min-width: 901px) {
