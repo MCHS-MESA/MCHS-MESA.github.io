@@ -1,6 +1,7 @@
 .four-container{
     display:flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     margin-top: 30px;
 }
 
@@ -43,7 +44,10 @@
     flex-direction: column;
     /* margin: auto; */
     /* width: 200px; */
-    margin-right: 45px;
+    /* margin-right: 45px; */
+    /* justify-content: flex-start; */
+    /* justify-content: left; */
+
 }
 
 .boardName{
@@ -56,34 +60,47 @@
     display: flex;
     flex-direction: row;
     /* width: 25%; */
-    margin: auto;
+    /* margin: auto; */
     color: white;
+    width: 100%;
+    /* justify-content: space-between; */
+
 }
 
 .otherboard{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+    /* align-items: center; */
+    margin-top: 45px;
     padding-bottom: 1%;
 }
 
 .boardEmail{
     font-size: 16pt ;
+    /* align-self: end; */
 }
 .leftPush{
     /* margin-right: 20px ; */
     /* text-indent: -300px; */
     /* font-size: 100pt; */
-    margin-left: 20%;
+    margin-left: 15%;
+    width: 30%;
+    /* text-align: start; */
     /* width: 25%; */
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
 }
 .rightPush{
     /* margin-right: 20px ; */
     /* text-indent: -300px; */
     /* font-size: 100pt; */
     margin-left: 55%;
+    width: 30%;
+    /* text-align: left; */
     /* width: 25%; */
 }
 .bigEmail{
@@ -93,4 +110,71 @@
 }
 .bigRole{
     /* font-size: 16pt; */
+}
+
+
+@media screen and (max-width: 1450px){
+    .leftPush{
+        margin: auto;
+        width: 40%;
+
+    }
+    .rightPush{
+        margin: auto;
+        width: 40%;
+
+    }
+    /* .nameRole{
+        margin-right:0 ;
+    } */
+    /* .boardMember{
+        flex-direction: column;
+        margin-bottom: 20px;
+justify-content: center;
+        width: 90%;
+        text-align: center;
+    } */
+    .boardRole{
+        margin-bottom: 0rem;
+    }
+    .boardMember{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .four-container{
+        flex-direction: column;
+    }
+    .co-pres{
+        margin-bottom: 25px;
+    }
+    .leftPush{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: auto;
+
+    }
+    .rightPush{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: auto;
+    }
+    .nameRole{
+        /* flex-direction: row; */
+        margin-right:0 ;
+    }
+    .boardMember{
+        flex-direction: column;
+        margin-bottom: 20px;
+justify-content: center;
+        /* width: 100%; */
+        text-align: center;
+    }
+    .boardRole{
+        margin-bottom: 0rem;
+    }
+    .inner{
+        justify-content: center;
+    }
 }
