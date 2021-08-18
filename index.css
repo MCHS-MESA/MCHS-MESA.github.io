@@ -57,34 +57,32 @@ h1{
     text-shadow: black 5px 5px;
 }
 
-a.button1{
-    display:flex;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
+.button1 {
+    padding: 10px;
+    border: 3px solid white;
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
     border-radius:0.4em;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    text-align:center;
+    font-weight: 500;
+    color: white;
+    text-align: center;
     transition: all 0.2s;
     justify-content: center;
-    width: 13vw;
-    margin: auto;
-    margin-top: 3%;
-    height: 8vh;
     font-size: 16pt;
-    min-width: 250px;
-    min-height: 50px;
-    padding-bottom: 0;
-
+    word-wrap: break-word;
+    white-space: normal;
+    text-decoration: none;
     }
-a.button1:hover{
+
+.button1:hover {
     color:#000000;
     background-color:#FFFFFF;
-    }
+}
+
 @media all and (max-width:30em){
     a.button1{
     display:block;
