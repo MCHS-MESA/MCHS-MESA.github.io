@@ -57,7 +57,9 @@ h1{
     text-shadow: black 5px 5px;
 }
 
-.button1 {
+.main-button {
+    display: flex;
+    cursor: pointer;
     padding: 10px;
     border: 3px solid white;
     width: 90%;
@@ -68,6 +70,7 @@ h1{
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight: 500;
+    background-color: transparent;
     color: white;
     text-align: center;
     transition: all 0.2s;
@@ -78,7 +81,7 @@ h1{
     text-decoration: none;
     }
 
-.button1:hover {
+.main-button:hover {
     color:#000000;
     background-color:#FFFFFF;
 }
