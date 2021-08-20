@@ -59,6 +59,7 @@ h1{
 
 .main-button {
     display: flex;
+    text-decoration: none;
     cursor: pointer;
     padding: 10px;
     border: 3px solid white;
@@ -82,6 +83,7 @@ h1{
     }
 
 .main-button:hover {
+    text-decoration: none;
     color:#000000;
     background-color:#FFFFFF;
 }
