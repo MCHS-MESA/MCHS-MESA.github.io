@@ -11,7 +11,7 @@ html, body {
 }
 @font-face {
     font-family: 'kayak';
-    src: url(Coves-Bold.otf) format("opentype");
+    src: url(../fonts/coves-bold.otf) format("opentype");
 }
 
 .main-logo {
