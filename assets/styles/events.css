@@ -6,7 +6,7 @@
 .event-item{
     display: flex;
     margin: 4%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     /* width: 92%; */
     border: solid 4px white;
     align-items: flex-start;
